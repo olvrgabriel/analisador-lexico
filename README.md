@@ -1,4 +1,3 @@
-```markdown
 # ANALISADOR LÉXICO EM C
 
 ## Descrição do projeto
@@ -89,8 +88,8 @@ ID           | disciplina           | [9, 10]
 LBRACKET     | [                    | [9, 20]
 RBRACKET     | ]                    | [9, 21]
 ASSIGN       | =                    | [9, 23]
-STRING       | "Compiladores"       | [9, 25]
-SEMICOL      | ;                    | [9, 39]
+STRING       | Compiladores         | [9, 26]
+SEMICOL      | ;                    | [9, 40]
 IF           | if                   | [12, 5]
 LPAREN       | (                    | [12, 8]
 ID           | meus_dados           | [12, 9]
@@ -100,3 +99,17 @@ RBRACKET     | ]                    | [12, 21]
 GE           | >=                   | [12, 23]
 NUM_INT      | 10                   | [12, 26]
 EQ           | ==                   | [12, 29]
+NUM_INT      | 1                    | [12, 32]
+RPAREN       | )                    | [12, 33]
+LBRACE       | {                    | [12, 35]
+RETURN       | return               | [13, 9]
+NUM_INT      | 1                    | [13, 16]
+SEMICOL      | ;                    | [13, 17]
+RBRACE       | }                    | [14, 5]
+NEQ          | !=                   | [14, 7]
+RETURN       | return               | [16, 5]
+NUM_INT      | 0                    | [16, 12]
+SEMICOL      | ;                    | [16, 13]
+RBRACE       | }                    | [17, 1]
+EOF          | EOF                  | [18, 1]
+```
